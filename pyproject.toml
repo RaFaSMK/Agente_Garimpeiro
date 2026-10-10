@@ -1,0 +1,11 @@
+[project]
+name = "agente-garimpeiro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.136.3",
+    "ollama>=0.6.2",
+    "pydantic>=2.13.4",
+]
